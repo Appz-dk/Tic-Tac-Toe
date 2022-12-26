@@ -50,7 +50,6 @@
 
 .grid-container {
   display: grid;
-  gap: 1px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -74,6 +73,7 @@
   width: 100%;
   color: #b3c1ff;
   margin-bottom: 1rem;
+  font-weight: 550;
 }
 
 .action {
@@ -83,4 +83,15 @@
 .action button {
   background-color: #535455;
   color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  .grid-box {
+    border: 1px solid black;
+    color: black;
+  }
+
+  .winner-text {
+    color: #002f64
+  }
 }
