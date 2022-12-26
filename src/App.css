@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin-block: 1rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 8rem;
+  font-size: 5rem;
+  border: 1px solid white;
+}
+
+.grid-box:hover {
+  cursor: pointer;
+}
+
+.winner-text {
+  height: 1.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+  color: #b3c1ff;
+  margin-bottom: 1rem;
+}
+
+.action {
+  margin-top: 2rem;
+}
+
+.action button {
+  background-color: #535455;
+  color: white;
+}
